@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("../utils/axios");
 const weather = require("../models/Weather");
 const responseFormatter = require('../utils/responseFormatter')
-const countryValidator = require('../middleware/countryValidator')
+const countryValidator = require('../middlewares/countryValidator')
 
 const router = express.Router();
 
